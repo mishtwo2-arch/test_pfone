@@ -28,4 +28,80 @@
          display: flex;
          gap: 3rem;
      }
+
+     .buttons:hover {
+         margin-top: 2.5rem;
+         display: flex;
+         gap: 3rem;
+     }
+     .button1:hover {
+         transform: scale(0.9);
+     }
+     .button2:hover {
+         transform: scale(0.9);
+     }
+     .button3:hover {
+         transform: scale(0.9);
+     }
+     .button4:hover {
+         transform: scale(0.9);
+     }
+
+     @media (max-width: 1000px) {
+         h1 {font-size: 10rem}
+
+         .buttons {
+             margin-top: 2.5rem;
+             display: flex;
+             gap: 3rem;
+             transform: scale(1.5);
+         }
+     }
+
+     .button {
+         position: absolute;
+         bottom: 3rem;
+         left: 50%;
+         transform: translateX(-50%);
+     }
+
+     .mouse-icon {
+         width: 1.5rem;
+         height: 2.5rem;
+         border: 0.1rem solid white;
+         border-radius: 1rem;
+     }
+
+     .scroll {
+         width: 0.25rem;
+         height: 0.5rem;
+         background: white;
+         border-radius: 1rem;
+         margin: 0.4rem auto;
+         animation: scroll 1.5s infinite;
+     }
+
+
+
+     html {
+         scroll-behavior: smooth;
+     }
+
+ }
+
+ @keyframes scroll {
+     0% {
+         transform: translateY(0);
+         opacity: 1;
+     }
+
+     50% {
+         transform: translateY(0.6rem);
+         opacity: 0.4;
+     }
+
+     100% {
+         transform: translateY(0);
+         opacity: 1;
+     }
  }
