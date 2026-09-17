@@ -6,6 +6,17 @@
      -webkit-text-stroke: 0.2rem black;
      text-align: center;
  }
+
+ h2 {
+     color: white;
+     font-family: Arial,
+     sans-serif;
+     font-size: 3rem;
+     -webkit-text-stroke: 0.1rem black;
+     text-align: center;
+     margin-top: 1rem;
+ }
+
 .blur {
      background-image: url("StockCake-Misty_Mountain_Waves-1792778-standard.jpg");
      background-size: cover;
@@ -24,16 +35,11 @@
      flex-direction: column;
 
      .buttons {
-         margin-top: 2.5rem;
+         margin-top: 1rem;
          display: flex;
          gap: 3rem;
      }
 
-     .buttons:hover {
-         margin-top: 2.5rem;
-         display: flex;
-         gap: 3rem;
-     }
      .button1:hover {
          transform: scale(0.9);
      }
@@ -56,13 +62,23 @@
              gap: 3rem;
              transform: scale(1.5);
          }
+
+         h2 {
+             color: white;
+             font-family: Arial,
+             sans-serif;
+             font-size: 3rem;
+             -webkit-text-stroke: 0.1rem black;
+             text-align: center;
+             margin-top: 1rem;
+         }
      }
 
      .button {
          position: absolute;
-         bottom: 3rem;
+         bottom: 5.5rem;
          left: 50%;
-         transform: translateX(-50%);
+         transform: translateX(-50%) scale(1.75);
      }
 
      .mouse-icon {
