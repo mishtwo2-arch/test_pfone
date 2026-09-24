@@ -99,13 +99,13 @@ h2 {
 @media (max-width: 1000px) {
 
     h1 {
-        font-size: 10rem;
+        font-size: 5rem;
     }
 
     .buttons {
-        margin-top: 2.5rem;
-        gap: 3rem;
-        transform: scale(1.5);
+  
+        gap: 1rem;
+        transform: scale(0.8);
     }
 
     h2 {
@@ -115,13 +115,18 @@ h2 {
     }
 
     .mouse {
-        bottom: 10rem;
+        bottom: 1rem;
     }
 
     .mouse-icon {
-        transform: scale(2.5);
+        transform: scale(0.5);
     }
 
+.body2 {
+  transform: 
+  translateY(-5rem);
+}
+  
 }
 
 
