@@ -51,6 +51,7 @@ h2 {
     display: flex;
     gap: 3rem;
     justify-content: center;
+    width: 100vw;
 }
 
 .button1:hover {
@@ -100,32 +101,34 @@ h2 {
 @media (max-width: 1000px) {
 
     h1 {
-        font-size: 5rem;
+        font-size: 10rem;
     }
 
-    .buttons {
-  
-        gap: 1rem;
-        transform: scale(0.8);
+    .buttons svg {
+        transform: scale(1.5);
+    }
+
+    .buttons{
+        gap: 5rem;
     }
 
     h2 {
-        font-size: 3rem;
-        -webkit-text-stroke: 0.1rem black;
-        margin-top: 1rem;
+        font-size: 6rem;
+        -webkit-text-stroke: 0.2rem black;
+        margin-top: 2rem;
     }
 
     .mouse {
-        bottom: 1rem;
+        bottom: 15rem;
     }
 
     .mouse-icon {
-        transform: scale(0.5);
+        transform: scale(1.5);
     }
 
 .body2 {
   transform: 
-  translateY(-5rem);
+  translateY(-10rem);
 }
   
 }
