@@ -140,7 +140,7 @@ html {
 
 .two_about {
     width: 100%;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .panel_one {
@@ -149,8 +149,25 @@ html {
     padding-top: 1rem;
     padding-left: 5rem;
     padding-bottom: 2rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-radius: 2rem;
+    backdrop-filter: blur(0.6rem);
+
+    margin-top: 5rem;
+
+    min-height: 20rem;
+}
+
+.panel_zero {
+    background: rgba(0, 0, 0, 0.75);
+
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 
     border-radius: 2rem;
     backdrop-filter: blur(0.6rem);
@@ -160,8 +177,29 @@ html {
     min-height: 20rem;
 }
 
+.panel_two {
+    background: rgba(0, 0, 0, 0.75);
+
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-radius: 2rem;
+    backdrop-filter: blur(0.6rem);
+
+    margin-top: 5rem;
+
+    min-height: 20rem;
+}
+
 .in_panel_one {
 
+}
+
+.in_panel_zero {
+    padding-top: 0.1rem;
 }
 
 summary {
@@ -222,6 +260,22 @@ h4 {
     font-family: Arial, sans-serif;
     font-size: 2rem;
 }
+
+
+h6 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+h5 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+}
+
+
+
 
 
 
