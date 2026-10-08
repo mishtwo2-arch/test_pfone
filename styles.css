@@ -183,6 +183,7 @@ html {
     background: rgba(0, 0, 0, 0.75);
 
     padding-left: 5rem;
+    padding-right: 3rem ;
     padding-bottom: 2rem;
     margin-left: 10%;
     margin-right: 10%;
@@ -294,6 +295,41 @@ h5 {
     color: white;
     font-family: Arial, sans-serif;
     font-size: 3rem;
+}
+
+.cloud {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    position: relative;
+
+    container-type: inline-size;
+
+    transform: scale(0.7);
+
+}
+
+.cloud img {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+
+
+
+}
+
+.cloud img:hover {
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.8);
+}
+
+span {
+    color: black;
+    font-size: 4cqw;
+
+    position: absolute;
+
+    top: 26%;
 }
 
 
