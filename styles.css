@@ -99,40 +99,6 @@ h2 {
 }
 
 
-@media (max-width: 600px) {
-
-    h1 {
-        font-size: 10rem;
-    }
-
-    .buttons svg {
-        transform: scale(1.5);
-    }
-
-    .buttons{
-        gap: 5rem;
-    }
-
-    h2 {
-        font-size: 6rem;
-        -webkit-text-stroke: 0.2rem black;
-        margin-top: 2rem;
-    }
-
-    .mouse {
-        bottom: 15rem;
-    }
-
-    .mouse-icon {
-        transform: scale(1.5);
-    }
-
-.body2 {
-    padding-top: 1rem;
-}
-  
-}
-
 
 html {
     scroll-behavior: smooth;
@@ -315,8 +281,6 @@ h5 {
     height: auto;
     border-radius: 5rem;
 
-
-
 }
 
 .cloud img:hover {
@@ -332,7 +296,9 @@ span {
     top: 26%;
 }
 
-
+.img_mb {
+    display: none;
+}
 
 
 
@@ -353,4 +319,89 @@ span {
         opacity: 1;
     }
 }
+
+
+@media (max-width: 1000px) {
+
+
+
+    h1 {
+        font-size: 14rem;
+        color: white;
+    }
+
+    .buttons svg {
+        transform: scale(1.5);
+    }
+
+    .buttons{
+        gap: 5rem;
+    }
+
+    h3 {
+        color: white;
+        font-family: "Pattaya", sans-serif;
+        font-size: 5rem;
+
+        padding-top: 4rem;
+    }
+
+    h6 {
+        color: white;
+        font-family: "Marck Script", cursive;
+        font-size: 5rem;
+
+
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .mouse {
+        bottom: 15rem;
+    }
+
+    .mouse-icon {
+        transform: scale(1.5);
+    }
+
+    .body2 {
+        padding-top: 1rem;
+
+
+    }
+
+    summary {
+        color: skyblue;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 3rem;
+    }
+
+    .img_pc {
+        display: none;
+    }
+
+    .img_mb {
+        display: block;
+    }
+
+    span {
+        display: none;
+    }
+
+    .cloud {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        position: relative;
+
+        container-type: inline-size;
+
+        transform: scale(0.9);
+
+    }
+
+}
+
 
