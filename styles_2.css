@@ -12,9 +12,6 @@ body {
     display: flex;
     align-items: center;
 
-    gap: 10rem;
-
-    flex-direction: row;
 }
 
 .buttons {
@@ -22,9 +19,9 @@ body {
 }
 
 .curse, .modr {
-    width: 40%;
+    width: 30%;
     border-radius: 10rem;
 
 
-    transform: translateX(25%);
+    transform: translateX(65%);
 }
