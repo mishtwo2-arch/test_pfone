@@ -375,6 +375,13 @@ span {
         color: skyblue;
         font-family: "Comfortaa", sans-serif;
         font-size: 3rem;
+
+
+    }
+
+    details {
+        cursor: pointer;
+        user-select: none;
     }
 
     .img_pc {
