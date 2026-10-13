@@ -25,5 +25,28 @@ body {
     padding: 1.5%;
 
 
+
     transform: translateX(56%);
 }
+
+.curse:hover, .modr:hover {
+
+    filter: brightness(80%);
+}
+
+    @media (max-width: 1200px) {
+        .one {
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .curse, .modr {
+            width: 95%;
+            padding: 3%;
+            box-sizing: border-box;
+
+            transform: translateX(3%);
+        }
+    }
+
